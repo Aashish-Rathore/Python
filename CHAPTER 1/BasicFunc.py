@@ -63,7 +63,7 @@
 
 
 # //MAP-->
-n=[1,2,3,4,5]
+# n=[1,2,3,4,5]
 
 # sqr_nub= list(map(lambda x: x**2 ,n))
 # print(sqr_nub)
@@ -146,3 +146,98 @@ n=[1,2,3,4,5]
 # print(left_rotate(arr,2))
 
 
+
+# 1 largestinArray-->
+# def lar_arr(arr):
+#     large = arr[0]
+#     for num in arr:
+#        if num > large:
+#         large = num
+#     return large
+# arr=[9,7,88,65,4,4,1]
+# print(lar_arr(arr))
+
+
+
+#2 smallest
+# def small_arr(arr):
+#     smallest= arr[0]
+#     for num in arr:
+#         if num < smallest:
+#             smallest = num
+#     return smallest
+# arr=[12,1,2,3,6]
+# print(small_arr(arr))
+
+
+
+# 3 totalSum-->
+# def sum(arr):
+#     total = 0
+#     for i in arr:
+#         total+=i
+#     return total
+# arr=[12,13,14,15,16]
+# print(sum(arr))
+
+
+
+# 4 REVERSE ARRAY-->
+# def rev_arr(arr):
+#         return arr[::-1]
+# arr=[10,9,8,7,6,5]
+# print(rev_arr(arr))
+
+
+# 5 SEcond largest in array-->
+# def sec_lar(arr):
+#    first = second = float('-inf')
+#    for num in arr:
+#       if  num > first:
+#          second=first
+#          first = num
+#       elif num > second and num!=first:
+#          second=num
+#          return second if second!=float('-inf') else None
+     
+# arr=[10,8,5,3,2,1]
+# print(sec_lar(arr))
+
+
+
+# 6 sorted array-->
+# def is_sorted(arr):
+#     for num in range(len(arr)-1):
+#         if arr[num]>arr[num+1]:
+#             return False
+#         return True
+# arr=[1,2,3,5,6]
+# print(is_sorted(arr))
+
+
+
+# 7 Remove Duplicates-->
+# def duplicate(arr):
+#     unique_element= []
+#     for i in arr:
+#         if i not in unique_element:
+#             unique_element.append(i)
+#     return unique_element
+# arr=[10,3,4,5,6,7,10,3,7]
+# print(duplicate(arr))
+
+
+
+
+# 8 count Frequency-->
+# def count_freq(arr):
+#     frequency = {}
+#     for num in arr:
+#         if num in frequency:
+#             frequency[num] += 1
+#         else:
+#             frequency[num]=1
+#     return frequency
+
+# arr=[1,2,3,4,5,1,2,3,3,3,3,4,4,4,2,3]
+# print(count_freq(arr))
