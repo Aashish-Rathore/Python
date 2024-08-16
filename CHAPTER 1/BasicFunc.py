@@ -211,7 +211,7 @@ print(sec_lar(arr))
 
 
 
-6 sorted array-->
+# 6 sorted array-->
 def is_sorted(arr):
     for num in range(len(arr)-1):
         if arr[num]>arr[num+1]:
@@ -222,7 +222,7 @@ print(is_sorted(arr))
 
 
 
-7 Remove Duplicates-->
+# 7 Remove Duplicates-->
 def duplicate(arr):
     unique_element= []
     for i in arr:
@@ -235,7 +235,7 @@ print(duplicate(arr))
 
 
 
-8 count Frequency-->
+# 8 count Frequency-->
 def count_freq(arr):
     frequency = {}
     for num in arr:
