@@ -143,7 +143,7 @@ def left_rotate(arr,d):
     return arr
 
 arr=[1,2,3,4,5]
-print(left_rotate(arr,2))
+print(left_rotate(arr,4))
 
 
 
