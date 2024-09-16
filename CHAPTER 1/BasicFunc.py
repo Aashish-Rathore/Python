@@ -115,28 +115,6 @@
 # print(linear_search(arr,5))
 
 
-
-
-# def binary_search(arr, X):
-#     start = 0
-#     end = len(arr)-1
-
-#     while start<=end:
-#         mid = (start+end) // 2
-#         if arr[mid]==X:
-#             return mid
-#         elif arr[mid]<X :
-#            start= mid+1
-#         else:
-#            end = mid-1
-#     return -1
-
-# arr=[1,2,3,4,5,6,7,8,9,10]
-# print(binary_search(arr,7))
-
-
-
-
 def left_rotate(arr,d):
     n=len(arr)
     arr[:] = arr[d:n] + arr[0:d]
